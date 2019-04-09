@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Fun Bus Travel Agency - Solution</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+
+  <script src="js/index.js" async></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+  <header class="main-navigation">
+    <div class="container nav-container">
+      <h1 class="logo-heading">Fun Bus</h1>
+      <nav class="nav">
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="#">Blog</a>
+        <a class="nav-link" href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
+     
+  <div class="container home">
+    <header class="intro">
+		<form action="/action_page.php">
+			<input type = "text" placeholder = "Firstname">
+			<input type = "text" placeholder = "LastName">
+			<input type = "text" placeholder = "Email">
+			<input type = "text" placeholder = "Daytime Phone">
+			<input type = "text" placeholder = "Address">
+			
+			<div>
+				<input type = "radio" id = "student" name = "gender"><label for = "student">Student</label>
+				<input type = "radio" id = "driver" name = "gender"><label for = "driver">Driver</label>
+			</div>
+			
+			<input type = "submit" name = "Submit">
+		</form> 
+    </header>
+   
+  </div><!-- container -->
+
+  <footer class="footer">
+    <p>Copyright Fun Bus 2018</p>
+  </footer>
+
+</body>
+</html>
