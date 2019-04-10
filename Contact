@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
 
-  <script src="js/index.js" async></script>
+  <script src="js/contact.js" async></script>
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -33,7 +33,7 @@
   <div class="container home">
     <header class="intro">
 		<h1 class = "contactheader">Contact Us</h1>
-		<form action="/action_page.php">
+		<form class = 'youbwoi' action="/action_page.php">
 			<input type = "text" placeholder = "Firstname">
 			<input type = "text" placeholder = "LastName">
 			<input type = "text" placeholder = "Email">
